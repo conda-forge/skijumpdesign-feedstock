@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
@@ -35,8 +35,6 @@ requirements:
     - dash
     - dash-html-components
     - dash-core-components
-    # - nbformat  # plotly dep, oddly not included in conda dep
-    # - jupyter_core  # plotly dep, oddly not included in conda dep
 
 test:
   imports:
