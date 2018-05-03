@@ -1,6 +1,6 @@
 {% set name = "skijumpdesign" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "445661effe9eaf7d6da08e15ad427608dc358dc28da7a788795141bd9eb22eab" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "b1ff84b0629077f9d6da3a15393accac4893b52373e9a2758c0a854aa1b4841f" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
