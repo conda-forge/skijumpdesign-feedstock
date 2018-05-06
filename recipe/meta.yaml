@@ -20,15 +20,14 @@ build:
     # properly.
     mv {{ environ["PREFIX"] }}/static {{ environ["SP_DIR"] }}/
   noarch: python
-  skip: True  # [py<35]
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - setuptools
     - pip
   run:
-    - python
+    - python >=3.5
     - setuptools
     - numpy >=1.13
     - scipy >=1.0
