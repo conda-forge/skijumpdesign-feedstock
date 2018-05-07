@@ -15,10 +15,6 @@ build:
   number: 0
   script: |
     python -m pip install --no-deps --ignore-installed .
-    # This is a hack to get the custom css file in the right place. Remove once
-    # https://gitlab.com/moorepants/skijumpdesign/issues/44 is addressed
-    # properly.
-    mv {{ environ["PREFIX"] }}/static {{ environ["SP_DIR"] }}/
   noarch: python
 
 requirements:
