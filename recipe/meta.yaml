@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   script: |
     python -m pip install --no-deps --ignore-installed .
   noarch: python
@@ -21,13 +21,15 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - {{ compiler('c') }}
+  host:
+    - python
     - setuptools
     - pip
   run:
-    - python >=3.5
+    - python
     - setuptools
-    - numpy >=1.13
+    - numpy
     - scipy >=1.0
     - matplotlib
     - sympy
