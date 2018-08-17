@@ -1,6 +1,6 @@
 {% set name = "skijumpdesign" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "7ad456ff0c712d47d20d22fc6fb3d555bef83bfecce685a7101c2c3fd4fa32d5" %}
+{% set version = "1.3.0" %}
+{% set sha256 = "c53da2cc138a66f7d8c5579d64b34305ea32c6263c073f9be683e2bf0cf062af" %}
 
 package:
   name: {{ name|lower }}
