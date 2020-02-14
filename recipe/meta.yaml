@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: |
     python -m pip install --no-deps --ignore-installed .
   noarch: python
@@ -29,7 +29,7 @@ requirements:
     - setuptools
     - numpy >=1.13
     - scipy >=1.0
-    - matplotlib
+    - matplotlib-base
     - sympy
     - cython
     - fastcache
