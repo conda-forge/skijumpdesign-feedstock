@@ -1,22 +1,24 @@
 About skijumpdesign
 ===================
 
-Home: https://skijumpdesign.herokuapp.com
+Home: https://skijumpdesign.info
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/skijumpdesign-feedstock/blob/master/LICENSE.txt)
 
-Summary: Ski Jump Design Tool For Specified Equivalent Fall Height
+Summary: Ski Jump Design and Analysis Tool For Specified Equivalent Fall Height
 
-A ski jump design tool for equivalent fall height based on the work
-presented in Levy, Dean, Mont Hubbard, James A. McNeil, and Andrew Swedberg.
-"A Design Rationale for Safer Terrain Park Jumps That Limit Equivalent Fall
-Height." Sports Engineering 18, no. 4 (December 2015): 227–39.
-https://doi.org/10.1007/s12283-015-0182-6. Includes a library for 2D skiing
-simulations and a graphical web application for designing ski jumps. It is
-written in Python backed by NumPy, SciPy, SymPy, Cython, matplotlib,
-Plotly, and Dash.
+Development: https://gitlab.com/moorepants/skijumpdesign
+
+A ski jump design and analysis tool for equivalent fall height based on the
+work presented in Levy, Dean, Mont Hubbard, James A. McNeil, and Andrew
+Swedberg.  "A Design Rationale for Safer Terrain Park Jumps That Limit
+Equivalent Fall Height." Sports Engineering 18, no. 4 (December 2015):
+227–39.  https://doi.org/10.1007/s12283-015-0182-6. Includes a library for
+2D skiing simulations and a graphical web application for designing and
+analyzing ski jumps. It is written in Python backed by NumPy, SciPy, SymPy,
+Cython, matplotlib, Pandas, Plotly, and Dash.
 
 
 Current build status
@@ -116,9 +118,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
